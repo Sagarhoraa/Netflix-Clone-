@@ -1,12 +1,62 @@
-# React + Vite
+# 🎬 Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18.x-blue?logo=react)
+![Firebase](https://img.shields.io/badge/Firebase-Auth-yellow?logo=firebase)
+![TMDB API](https://img.shields.io/badge/TMDB-API-blueviolet?logo=tmdb)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen)
+![License](https://img.shields.io/badge/License-None-lightgrey)
 
-Currently, two official plugins are available:
+A sleek, beginner-friendly **Netflix clone** built with **React**, **Firebase Authentication**, and **The Movie Database (TMDB) API**. Users can sign up, log in, and browse movies with a beautiful and responsive UI, just like the real thing!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ User Authentication (Signup & Login via Firebase)  
+✅ Home Page with Featured Content  
+✅ Movie Cards showing posters & titles  
+✅ Real-time data from TMDB API  
+✅ Fully Responsive Design  
+✅ Built using React & Firebase  
+
+---
+
+## 🛠 Tech Stack
+
+| Tech         | Usage                       |
+|--------------|-----------------------------|
+| **React**    | Frontend UI development     |
+| **Firebase** | User Auth (Signup/Login)    |
+| **TMDB API** | Movie and show data         |
+| **Vite**     | Fast React dev environment  |
+| **CSS/Tailwind** (optional) | Styling & responsiveness |
+
+---
+
+## 📦 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+
+```bash```
+git clone https://github.com/your-username/netflix-clone.git
+cd netflix-clone
+
+###2. Install Dependencies
+npm install
+
+###3. Create a .env File
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+
+VITE_TMDB_API_KEY=your_tmdb_api_key
+
+
+### 4. Run the Development Server
+npm run dev
